@@ -1,10 +1,8 @@
-/**
- * @type {import('gatsby').GatsbyConfig}
- */
 module.exports = {
   siteMetadata: {
-    title: `my-portfolio`,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: `My Portfolio`,
   },
-  plugins: [],
-}
+  plugins: [
+    `gatsby-plugin-postcss`, // Ensure this is present to support PostCSS
+  ],
+};
